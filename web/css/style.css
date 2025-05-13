@@ -1,0 +1,82 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, label, div.mensagem{
+  user-select: none;
+}
+h1.titulo{
+  color: white;
+  text-align: center;
+}
+
+main.container-login{ 
+  width: 100%;
+  max-width: 300px;
+  padding: 30px;
+  background-color: rgba(17, 24, 39, 1);
+  border-radius: 20px;
+}
+
+.form-login{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  gap: 1px;
+}
+
+.input-group label{
+  color: gray;
+}
+.input-group input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: white;
+  background-color: transparent;
+}
+.input-group input:hover, 
+.input-group input:focus{
+ border: 1px solid #AA60C8;
+ outline: none;
+ cursor: pointer;
+}
+
+div.mensagem{
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 0px 0px;
+  color: red;
+  border-radius: 10px;
+  display: none;
+}
+
+button.bt-login{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #AA60C8;
+}
+
+button.bt-login:hover{
+  background-color: #a956ca;
+  cursor: pointer;
+}

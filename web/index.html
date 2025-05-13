@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/scripts.js"></script>
+    <link rel="icon" href="img/icon-site.png">
+    <title>Login</title>
+  </head>
+  <body>
+    <main class="container-login">
+      <h1 class="titulo">Login</h1>
+      <form class="form-login" id="loginForm">
+        <div class="input-group">
+          <label for="user">Usuário</label>
+          <input type="text" id="user" name="user" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <div class="mensagem" id="mensagem">Usuário ou senha incorretos!</div>
+
+        <button class="bt-login" type="submit">Entrar</button>
+      </form>
+    </main>
+  </body>
+</html>
